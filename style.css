@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8ecf2;
+}
+
+img {
+    height: 18px;
+    width: 18px;
+}
+
+button {
+    height: 50px;
+    width: 175px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all;
+    transition-duration: 0.1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: #e8ecf2;
+    color: #73787d;
+    border-radius: 9999px;
+}
+
+.send {
+    box-shadow: -5px -5px 10px rgba(255,255,255,0.6),
+    1px 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.send:hover {
+    box-shadow: -1px -1px 5px rgba(255,255,255,0.8),
+    5px 5px 10px rgba(0, 0, 0, 0.3);
+}
